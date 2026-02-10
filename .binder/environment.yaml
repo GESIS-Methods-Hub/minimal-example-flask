@@ -1,0 +1,6 @@
+name: default
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- flask >=3.1.2,<4
