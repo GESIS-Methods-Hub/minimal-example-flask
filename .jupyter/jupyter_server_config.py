@@ -1,5 +1,6 @@
 c.ServerProxy.servers = {
-   "Flask": {
-       "command": ["flask", "run"]
+   "flask": {
+       "command": ["flask", "run", "--port", "{port}"],
+       "absolute_url": False
    }
 }
