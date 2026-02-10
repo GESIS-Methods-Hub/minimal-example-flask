@@ -4,3 +4,4 @@ channels:
 - nodefaults
 dependencies:
 - flask >=3.1.2,<4
+- jupyter-server-proxy >=4.4.0,<5
